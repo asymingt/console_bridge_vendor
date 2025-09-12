@@ -16,6 +16,6 @@
         
 module(
     name = "console_bridge_vendor",
-    version = "5.8.1",
+    version = "1.9.1",
     compatibility_level = 0,
 )

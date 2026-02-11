@@ -26,6 +26,5 @@ cc_test(
     ],
     local_defines = ["ROS_PACKAGE_NAME=\\\"console_bridge_vendor\\\""],
     timeout = "moderate",
-    tags = ["exclusive"],
 )
 

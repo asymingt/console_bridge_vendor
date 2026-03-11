@@ -21,6 +21,7 @@ cc_test(
     timeout = "moderate",
     srcs = ["test/benchmark/benchmark_log.cpp"],
     local_defines = ["ROS_PACKAGE_NAME=\\\"console_bridge_vendor\\\""],
+    tags = ["manual"],
     deps = [
         "@console_bridge",
         "@google_benchmark//:benchmark_main",
